@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TheaWeb</title>
+  <link rel="stylesheet" href="music.css">
+</head>
+
+<body>
+  <div class="hamburger-menu" onclick="toggleMenu()">&#9776;</div>
+  <div class="sidebar" id="sidebar">
+    <h1>Menu</h1>
+    <a href="Index.html">Home</a>
+    <a href="music.html">Her Fav Music</a>
+    <a href="Letters.html">Message</a>
+  </div>
+  <header class="music-header">
+    <h2>Your Favorite Music</h2>
+  </header>
+  <div class="grid">
+    <div class="tile" data-src="Ride.mp3">
+      <img src="Ride Twenty One Pilots Fan CD Cover.jpg" alt="Song Cover" />
+      <p>Ride</p>
+    </div>
+    <div class="tile" data-src="December Avenue Saksi Ang Langit OFFICIAL LYRIC VIDEO.mp3">
+      <img src="saksi ang langit.jpeg" alt="Song Cover">
+      <p>Saksi ang Langit</p>
+    </div>
+    <div class="tile" data-src="Enchanted(128k).mp4">
+      <img src="enchanted.jpeg" alt="Song Cover" />
+      <p>Enchanted</p>
+    </div>
+    <div class="tile" data-src="Goo Goo Dolls Iris Lyrics.mp3">
+      <img src="iris.jpeg" alt="Song Cover" />
+      <p>Iris</p>
+    </div>
+    <div class="tile" data-src="Pamungkas_-_To_the_bone__lyrics_(256k).mp3">
+      <img src="Tothebone.png" alt="Song Cover" />
+      <p>To the bone</p>
+    </div>
+    <div class="tile" data-src="TERRIFIED_-_Katherine_McPhee__Lyric_Video_(256k).mp3">
+      <img src="Terrified.jpeg" alt="Song Cover" />
+      <p>Terrified</p>
+    </div>
+    <div class="tile" data-src="Until_I_Found_You(256k).mp3">
+      <img src="Until.jpeg" alt="Song Cover" />
+      <p>Until I Found You</p>
+    </div>
+    <div class="tile" data-src="Mitski My Love Mine All Mine Official Lyric Video.mp3">
+      <img src="Mylove.jpeg" alt="Song Cover" />
+      <p>My Love Mine All Mine</p>
+    </div>
+    <div class="tile" data-src="Arctic_Monkeys_-_I_Wanna_Be_Yours__Bass_Backing_Track_(256k).mp3">
+      <img src="Iwannabeyours.png" alt="Song Cover" />
+      <p>I Wanna Be Yours</p>
+    </div>
+    <div class="tile" data-src="Dandelions(256k).mp3">
+      <img src="dandelions.jpeg" alt="Song Cover" />
+      <p>Dandelions</p>
+    </div>
+      <div class="tile" data-src="Araw-Araw(256k).mp3">
+      <img src="Althea.jpeg" alt="Song Cover" />
+      <p>Araw-Araw</p>
+    </div>
+  </div>  
+<div class="player">
+  <audio id="audioPlayer">
+    <source src="your-audio.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+</body>
+  <script src="music.js"></script>
+
+</html>
